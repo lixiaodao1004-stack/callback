@@ -1,0 +1,12 @@
+# dependencies and builds
+node_modules/
+dist/
+# secrets: never commit
+.env
+.env.*
+!.env.example
+# local tooling and render checks
+.claude/
+assignment/qa*/
+.DS_Store
+*.log
